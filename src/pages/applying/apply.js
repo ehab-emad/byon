@@ -25,7 +25,7 @@ import { fa1, fa2, fa3, fa4 } from '@fortawesome/free-solid-svg-icons';
  
  
  >
-<img src={s5} className='serviceimage1  ' alt='serviceimage1' width={400}/>
+<img src={s5} className='serviceimage1  ' alt='serviceimage1' width={350}/>
 
 
 

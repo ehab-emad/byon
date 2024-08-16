@@ -21,7 +21,7 @@ const Section2 = () => {
         
         
         >
-<img src={s5} className='serviceimage1' alt='serviceimage1' width={400}/>
+<img src={s5} className='serviceimage1' alt='serviceimage1' width={350}/>
 
 
 
@@ -52,7 +52,7 @@ const Section2 = () => {
         
         
         >
-<img src={s6} className='serviceimage1' alt='serviceimage1' width={400}/>
+<img src={s6} className='serviceimage1' alt='serviceimage1' width={350}/>
 
 
 

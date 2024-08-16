@@ -15,19 +15,19 @@ const Header = () => {
     <Link to={'/'} onClick={()=>{setindex(0)}}> <img src={dd} alt='logopage'/></Link>
       <ul className={` ${change===1 ? 'active2':''}`}>
       <FontAwesomeIcon icon={faX} className='x'  onClick={()=>{setchange(0)}}/>
-        <li onClick={()=>{setindex(0)
+        <li className={`i ${index===0 ? 'active1':''}`} onClick={()=>{setindex(0)
         setchange(0)
 
-        }}> <Link className={`i ${index===0 ? 'active1':''}`}to={'/'} >الرئيسية</Link></li>
-        <li onClick={()=>{setindex(1)
+        }}> <Link to={'/'} >الرئيسية</Link></li>
+        <li className={`i ${index===1 ? 'active1':''}`} onClick={()=>{setindex(1)
           setchange(0)
-        }}><Link  className={`i ${index===1 ? 'active1':''}`} to={'/Home/service'}>الخدمات</Link></li>
-        <li   onClick={()=>{setindex(2)
+        }}><Link   to={'/Home/service'}>الخدمات</Link></li>
+        <li className={`i ${index===2 ? 'active1':''}`}  onClick={()=>{setindex(2)
           setchange(0)
-        }}><Link className={`i ${index===2 ? 'active1':''}`}to={'/Home/applying'}>التوظيف و التدريب</Link></li>
-        <li  onClick={()=>{setindex(3)
+        }}><Link to={'/Home/applying'}>التوظيف و التدريب</Link></li>
+        <li className={`i ${index===3 ? 'active1':''}`} onClick={()=>{setindex(3)
           setchange(0)
-        }}><Link className={`i ${index===3 ? 'active1':''}`} to={'/Home/contact'}>تواصل معنا</Link></li>
+        }}><Link  to={'/Home/contact'}>تواصل معنا</Link></li>
        
       </ul>
       <FontAwesomeIcon icon={faBars} className="m" style={{color: "white",

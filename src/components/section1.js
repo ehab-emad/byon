@@ -26,7 +26,7 @@ const Section1 = ({title,path}) => {
         
         
         >
-<img src={s1} className='serviceimage1' alt='serviceimage1' width={400}/>
+<img src={s1} className='serviceimage1' alt='serviceimage1' width={350}/>
 
 
 
@@ -62,7 +62,7 @@ const Section1 = ({title,path}) => {
         
         
         >
-<img src={s2} className='serviceimage1' alt='serviceimage1' width={400}/>
+<img src={s2} className='serviceimage1' alt='serviceimage1' width={350}/>
 
 
 
@@ -102,7 +102,7 @@ const Section1 = ({title,path}) => {
         
         
         >
-<img src={s3} className='serviceimage1' alt='serviceimage1' width={400}/>
+<img src={s3} className='serviceimage1' alt='serviceimage1' width={350}/>
 
 
 
@@ -139,7 +139,7 @@ const Section1 = ({title,path}) => {
         
         
         >
-<img src={s4} className='serviceimage1' alt='serviceimage1' width={400}/>
+<img src={s4} className='serviceimage1' alt='serviceimage1' width={350}/>
 
 
 
