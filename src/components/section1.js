@@ -12,7 +12,7 @@ import { Link, useLocation } from 'react-router-dom';
 const Section1 = ({title,path}) => {
   
     return (
-       <div style={{marginTop:"220px"}}>
+       <div >
         <Subtitle title={'الخدمات'}/>
       
        <Row className='s1 d-flex justify-content-center my-5 align-items-center '>
